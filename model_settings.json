@@ -1,0 +1,42 @@
+{
+  "run_at_utc": "2026-09-29T19:34:40.487207+00:00",
+  "python_version": "3.13.15",
+  "software_versions": {
+    "pandas": "2.2.3",
+    "numpy": "2.1.3",
+    "matplotlib": "3.10.0",
+    "scikit-learn": "1.6.1"
+  },
+  "test_size": 0.2,
+  "random_state": 42,
+  "split": "stratified random row-level split",
+  "max_depth": 5,
+  "min_samples_leaf": 50,
+  "class_weight": "balanced",
+  "positive_class": "yes (1)",
+  "excluded_feature": "duration",
+  "input_features": [
+    "age",
+    "balance",
+    "day",
+    "campaign",
+    "pdays",
+    "previous",
+    "job",
+    "marital",
+    "education",
+    "default",
+    "housing",
+    "loan",
+    "contact",
+    "month",
+    "poutcome"
+  ],
+  "numeric_missing_values": "training median",
+  "categorical_missing_values": "constant missing label",
+  "categorical_encoding": "one-hot, ignore unseen categories",
+  "unknown_category": "retained as an explicit category",
+  "pdays_minus_one": "retained; means no previous campaign contact",
+  "hyperparameter_selection": "fixed starting values; no test-set tuning",
+  "feature_importance": "training impurity reduction summed to original input columns"
+}

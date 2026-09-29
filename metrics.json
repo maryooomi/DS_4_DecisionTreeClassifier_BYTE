@@ -1,0 +1,45 @@
+{
+  "positive_class": "yes (1)",
+  "decision_tree_test": {
+    "accuracy": 0.7949994468414647,
+    "precision_yes": 0.29812087353986794,
+    "recall_yes": 0.554820415879017,
+    "predicted_yes": 1969,
+    "actual_yes": 1058,
+    "observations": 9039
+  },
+  "majority_baseline_test": {
+    "accuracy": 0.8829516539440203,
+    "precision_yes": 0.0,
+    "recall_yes": 0.0,
+    "predicted_yes": 0,
+    "actual_yes": 1058,
+    "observations": 9039
+  },
+  "decision_tree_training_accuracy": 0.7976546078105985,
+  "precision_when_no_positive_predictions": "reported as zero (zero_division=0)",
+  "confusion_matrix": {
+    "row_order_actual": [
+      "no",
+      "yes"
+    ],
+    "column_order_predicted": [
+      "no",
+      "yes"
+    ],
+    "counts": [
+      [
+        6599,
+        1382
+      ],
+      [
+        471,
+        587
+      ]
+    ],
+    "true_negatives": 6599,
+    "false_positives": 1382,
+    "false_negatives": 471,
+    "true_positives": 587
+  }
+}

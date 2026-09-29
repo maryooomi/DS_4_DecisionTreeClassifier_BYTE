@@ -1,0 +1,11 @@
+{
+  "dataset": "UCI Bank Marketing",
+  "dataset_page": "https://archive.ics.uci.edu/dataset/222/bank+marketing",
+  "download_url": "https://archive.ics.uci.edu/static/public/222/bank%2Bmarketing.zip",
+  "selected_file": "bank-full.csv",
+  "retrieved_at_utc": "2026-09-29T19:34:30.070870+00:00",
+  "csv_sha256": "d1513ec63b385506f7cfce9f2c5caa9fe99e7ba4e8c3fa264b3aaf0f849ed32d",
+  "separator": ";",
+  "licence": "CC BY 4.0, as stated on the UCI dataset page",
+  "citation": "Moro, S., Rita, P., & Cortez, P. (2014). Bank Marketing [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5K306."
+}
